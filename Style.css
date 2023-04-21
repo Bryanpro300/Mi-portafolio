@@ -1,20 +1,10 @@
-header{
+.mensaje{
     display: flex;
+    align-items: center;
+    padding-right: 10%;
     justify-content: space-between;
-    align-items: center;
-    background-color: blue;
-    padding-left: 3%;
-    cursor: default;
 }
-ol,li{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding-left: 12%;
-    margin-right: 10%;
-    align-items: center;
-}
-li:hover{
-color: yellow;
-cursor: pointer;
+svg:hover{
+    background-color: rgb(131, 125, 125);
+    
 }
